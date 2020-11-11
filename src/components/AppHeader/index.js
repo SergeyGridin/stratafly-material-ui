@@ -11,13 +11,13 @@ export const AppHeader = () => {
     <div className={classes.root}>
       <AppBar position="fixed">
         <Toolbar>
-          <IconButton className={classes.menuButton} aria-label="Menu">
+          <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" className={classes.grow}>
+          <Typography variant="h6" color="inherit" className={classes.grow}>
             Stratafly
           </Typography>
-          <IconButton>
+          <IconButton color="inherit">
             <AccountCircle />
           </IconButton>
         </Toolbar>
